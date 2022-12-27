@@ -1,0 +1,28 @@
+*, *::after, *::before{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 200px;
+    height: 150px;
+}
+
+.players-grid{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    margin-block: 2.5rem;
+    row-gap: 2.5rem;
+}
+
+.pick-player>*{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.pick-player>*:hover{
+    transform: scale(1.2)
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+    property="og:title"
+    content="How to set GitHub credentials for macOS"
+    />
+    <meta
+    property="og:description"
+    content="Set up GitHub authentication so you can use it from VS Code or the command line"
+    />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="#" />
+    <meta property="og:image" content="#" />
+    <meta property="og:title" content="Immortal Kombat: Choose your Fate!" />
+    <meta
+    property="og:description"
+    content="Immortal Kombat: Choose your Fate! New User experience. JavaScript fully designed website."
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="./games_script/gamesettings.js" type="script"></script>
+    <script src="./games_script/players.js" type="script"></script>
+    <script src="./games_script/enemies.js" type="script"></script>
+
+    <title>Immortal Kombat: Choose your Fate!</title>
+</head>
+<body>
+    <section class="game-title">
+    <h1>Immortal Kombat: Battle for Greatness</h1>
+    <header>Choose your Fate!</header>
+    </section>
+
+    <section class="interface">
+    
+        <a href="#" onclick="gameSettings.setGameStart('oceanmaster')">
+        <img src="./characters/Oceanmaster.jpeg" alt="" srcset="" />
+        <div>
+        <p>Oceanmaster</p>
+        </div>
+    </a>
+
+    <a href="http://" onclick="gameSettings.setGameStart('Thora')">
+        <div class="pick-player Thora">
+        <img src="./characters/thora.jpeg" />
+        <p>Thora</p>
+        </div>
+    </a>
+
+    <div class="pick-player Legai">
+        <a href="http://" onclick="gameSettings.setGameStart('Legai')">
+        <img src="./characters/Legai.jpeg" alt="" srcset="" />
+        <p>Legai</p>
+        </a>
+    </div>
+
+    <div class="pick-player Shadow">
+        <a href="http://" onclick="gameSettings.setGameStart('Shadow')">
+        <img src="./characters/shadow.jpeg" alt="" srcset="" />
+        <p>Shadow</p>
+        </a>
+    </div>
+
+    <div class="pick-player Beast">
+        <a href="http://" onclick="gameSettings.setGameStart('Beast')">
+        <img src="./characters/beast.jpeg" alt="" srcset="" />
+        <p>Beast</p>
+        </a>
+    </div>
+
+    <div class="pick-player DemonHunter">
+        <a href="http://" onclick="gameSettings.setGameStart('DemonHunter')">
+        <img src="./characters/demonhunter.jpeg" alt="" srcset="" />
+        <p>DemonHunter</p>
+        </a>
+    </div>
+
+    <div class="pick-player KungLee">
+        <a href="http://" onclick="gameSettings.setGameStart('Legai')">
+        <img src="./characters/kunglee.jpeg" alt="" srcset="" />
+        <p>Kung Lee</p>
+        </a>
+    </div>
+
+    <div class="pick-player Tiko">
+        <a href="http://" onclick="gameSettings.setGameStart('Tiko')">
+        <img src="./characters/Tiko.jpeg" alt="" srcset="" />
+        <p>Tiko</p>
+        </a>
+    </div>
+
+    <div class="pick-player Kara">
+        <a href="http://" onclick="gameSettings.setGameStart('Kara')">
+        <img src="./characters/Kara.jpeg" alt="" srcset="" />
+        <p>Kara</p>
+        </a>
+    </div>
+    </section>
+
+    <section class="display-screen">
+    <div></div>
+    <span class="playnow-btn">Play Now!</span>
+    </section>
+</body>
+</html>
